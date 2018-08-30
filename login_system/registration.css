@@ -1,0 +1,74 @@
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 14px;
+	line-height:30px;
+	/*color:#777000;*/
+	background:#0CF;
+	padding-top: 80px;
+	position: relative;
+	background-image: url(tech2.png);
+}
+
+.loginBox
+{
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+	border: medium none;
+}
+
+
+#contact-submit {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	padding:10px;
+	font-size:15px;
+}
+#contact-submit:hover
+{
+	background-color: red;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="email"],
+.loginBox input[type="password"],
+.loginBox input[type="radio"],
+.loginBox input[type="tel"]
+{
+	
+	border-bottom: :1px solid #fff;
+	padding-bottom: 10px;
+	padding-right: 500px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#main
+{
+	background-color: rgba(255,255,102,.5);
+	max-width:850px;
+	border-radius: 20px;
+	margin:0 auto;
+}
+.desc
+{
+	
+	font-weight: bold;
+	color: #FFF
+}
+
+h1
+{
+	position: relative;
+	border-left: 30px;
+	color: yellow ;
+	left: 40px;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	font-size: 30px;
+	font-family: comic Sans MS;
+}

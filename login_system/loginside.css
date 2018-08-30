@@ -1,0 +1,52 @@
+body
+{
+	background-image: url(back.jpg);
+}
+
+#button {
+	cursor:pointer;
+	width:20%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+	position: relative;
+	left: 1150px;
+	top: 30px;
+}
+#button:hover
+{
+	background-color: red;
+}
+.events
+{
+	border-style: solid;
+	border-color: black;
+	background-image: url(tech.jpg);
+	background-size: 100%;
+	color: white;
+	border-width: 5px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	
+}
+h3
+{
+	color: white;
+}
+h1
+{
+	color: white;
+}
+h5
+{
+	color: white;
+}
+h6
+{
+	color: white;
+}
