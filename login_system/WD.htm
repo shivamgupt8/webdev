@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title >  CULTURAL FEST </title>
+<style type="text/css">
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ .slider-holder
+        {   
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right:40px;
+            margin-top: 98px;
+            text-align: center;
+            overflow: hidden;
+            float: right;
+        }
+       
+        .image-holder
+        {
+            width: 2400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+           
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+       
+        .slider-image
+        {
+            float: left;
+            margin: auto;   
+            position: relative;
+        }
+       
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+       
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+       
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+       
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+       
+        .slider-change
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            border-radius: 15px;
+            background-color: 
+     #99ff33;
+        }
+
+
+.header{
+  
+    width: 100%;
+    height: 100px;
+    background-color: none;
+
+}
+.navbar{
+    width: 100%;
+    padding:30px;
+    position: fixed;
+    top: 0px;
+    text-align: right;
+    float: left;
+    
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 5px;
+    color:#99ff99;
+    font-size: 18px;
+    font-family: georgia;
+    cursor: pointer;
+    border-radius: 10px;
+   transition: .5s; 
+}
+.navbar ul li:hover{
+    background: #e6ff99;
+
+}
+
+
+body{
+    margin: 0px;
+    border:0px;
+    font-family: sans-serif;
+    background-image: url(./1.jpg);
+    background-size: 100%;
+}
+
+a    {text-decoration: none; color: #00A5CC;}
+li   {list-style-type: none;}
+
+
+
+nav     { width:100%; text-align: center; }
+nav a   {
+	     display: block;
+	      padding :65px ;
+
+	     border-bottom: 2px solid red;
+         color: #F0EADC;
+        }
+.menu ul li a:hover {background: rgb(255, 85, 0); color:#79ff4d; cursor: pointer;width: 320px; transition: .8s; height: 200px;}
+.menu ul li a{
+    color:darkgreen;
+}
+nav li:last-child a {border-bottom: none;}
+
+.menu   {
+
+	    width:290px;
+     	height:100%;
+    	position: absoloute;
+    	background: rgba(179, 255, 217,0.5);
+
+        }
+
+
+</style>
+</head>
+
+
+<body >
+
+<h1 id="fest" style="text-align: center; color:  #ffc61a; font-family: stencil; font-size: 90px; margin-bottom: 2px; margin-top:  0px; padding-top: 40px;">INDRIYA-</h1>
+
+<h1 style="text-align: center; color: violet; font-family: courier; font-size:40px; padding-bottom: 5px; margin-top: 4px;">THE STRENGH TO CONTROL ALL FIVE SENSES</h1>
+
+ <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="image/1.jpg" class="slider-image" />
+            <img src="image/2.jpg" class="slider-image" />
+            <img src="image/3.jpg" class="slider-image" />
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+    </div>
+
+    <img src="./as.jpg" style="height: 400px; float: right; width: 300px; margin: 100px ;margin-right: 2px;  border-radius: 15%;">
+
+
+   <div class="header">
+         <div class="navbar">
+            <ul>
+                <li><a href="./WD.htm"> HOME</a></li>
+                <li><a href="http://localhost/login_system/login.php">REGISTER</a></li>
+                <li><a href="http://localhost/login_system/login2.php">LOGIN</a></li>
+                <li><a href="Aboutus.html">ABOUT</a></li>
+            </ul>
+             
+         </div>
+    </div>
+            
+
+   
+    <nav class="menu">
+        <ul >
+            <li ><a  style="color: black; font-family: cursive; font-size:30px;"><b>EVENTS</a></li>
+            
+            <li><a href="./pages.htm" style=" font-family: courier; font-size:25px;"><b>GIG-A-HERTZ</a></li>
+            <li><a href="./acou.htm" style=" font-family:courier; font-size:25px;"><b>ACOUSTICS</a></li>
+            <li><a href="./free.htm" style=" font-family:courier; font-size:25px;"><b>FREESTYLE-SOLO</a></li>
+            <li><a href="./class.htm" style=" font-family:courier; font-size:25px;"><b>CLASSICAL BEATS</a></li>
+            <li><a href="./cret.htm" style=" font-family: courier; font-size:25px;"><b>CREATE-A-SCENE</a></li>
+            <li><a href="./film.htm" style=" font-family:courier; font-size:25px;"><b>FILMY GYANII</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+<div class="footer" style="color: white; font-family: comic sans MS; font-size: 20px; float:right; padding-right: 15px;"><p>Made and designed by Webros</a>
+</body> 
+</html>
